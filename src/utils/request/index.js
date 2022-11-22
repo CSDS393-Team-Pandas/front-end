@@ -17,7 +17,7 @@ const getApiConfig = function(str) {
 
 const request = async function(url,config = {}) {
     const instance = axios.create({
-        baseURL:process.env.SERVER_URL || "http://localhost:8080",
+        baseURL:process.env.SERVER_URL || "https://main.d1k1vfvwwvhbrn.amplifyapp.com/",
         timeout: 10000
     })
 
